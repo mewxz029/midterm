@@ -8,4 +8,11 @@ def checkVowel():
                 return print("There is vowel")
     return print("There is not vowel")
 
-checkVowel()
+def checkVowelNew():
+    rawString = input("Enter some text: ").lower()
+    for i in vowel:
+        if i in rawString:
+            return print("There is vowel")
+    return print("There is not vowel")
+
+checkVowelNew()
